@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    cout << "Bienvenido al sistema ExpoFull" << endl;
+
+    string usuario;
+    string contrasena;
+
+    cout << "Ingrese su usuario: ";
+    cin >> usuario;
+
+    cout << "Ingrese su contrasena: ";
+    cin >> contrasena;
+
+    cout << "Inicio de sesion exitoso para: " << usuario << endl;
+
+    return 0;
+}
